@@ -1,0 +1,320 @@
+/* 􀤒Lettertype */
+@font-face {
+    font-family: "SF Pro";
+    src: local("fonts/SF-Pro.ttf")
+  }
+body {
+    margin: 0;
+    font-family: SF Pro, Arial, Helvetica, sans-serif;
+    background-color: #FFEEE5;
+}
+
+
+
+/* 􀃯Foutpagina */
+#sorry {
+    background-color: #FF0054;
+    margin: 1em;
+    padding-top: 10em;
+}
+.pijlterug {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+
+
+/* 􀟆Basisvormgeving Pagina */
+header nav {
+    color: #FFEEE5;
+    background-color: #390099 ;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.titel {
+    margin: 0;
+    margin-top: 0.1em;
+    font-size: 17pt;
+    font-weight: 500;
+}
+.achtergrondartvela {
+    background-color: #FF0054;
+}
+.navigatieknoppen {
+    height: 2em;
+}
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.klein {
+    font-size: 12px;
+    margin-left: 1.3em;
+}
+
+
+
+/* 􀏅Foto Vela Logo */
+.logo_vela{
+    margin: 1em;
+    background-color: #FFBD00;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+.logo_vela img {
+    height: 10em;
+    width: auto;
+    margin:1.5em;
+}
+
+
+
+/* 􁌒Artikel Vela */
+h1 {
+    font-size: 25px;
+    margin-left: 0.6em;
+    color: #FFEEE5;
+}
+h2 {
+    margin-left: 0.8em;
+    margin-bottom: 0.5em;
+    font-size: 20px;
+    margin-right: 1em;
+}
+#tag1 p{
+    margin: 0;
+}
+#tag1 {
+    background-color: #390099;
+    color: #FFEEE5;
+    margin-left: 1em;
+    margin-right: 18.2em;
+    margin-top: 0;
+    padding:0.4em;
+    border-radius: 8px;
+}
+.tekstvela {
+    background-color: #FFEEE5;
+    margin: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-radius: 8px;
+    color: #000000;
+}
+
+
+
+/* 􀙤Verder lezen + pagina einde */
+footer {
+    color: #FFEEE5;
+}
+footer h2 {
+    color: #FFEEE5;
+}
+.meer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* 􀥜Mini Artikel 1 */
+#miniart1 img {
+    max-width: 100%;
+    margin-top: 0em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#miniart1 {
+    background-color: #FFEEE5;
+    margin-left: 1.2em;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    border-radius: 8px;
+    width: 12.5em;
+    margin-bottom: 1em;
+    font-size: 13px;
+    color: #000000;
+}
+#miniart1 h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 0.8em;
+    color: #000000;
+}
+.tag2 {
+    background-color: #FF5400;
+    margin-left: 0.9em;
+    font-size: 8pt;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-right: 8.1em;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #FFEEE5;
+}
+#miniart1 a {
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    padding: 0.5em;
+    margin-top: 5em;
+}
+
+
+
+/* 􀥜Mini Artikel 2 */
+#miniart2 {
+    background-color: #FFBD00;
+    margin-right: 1em;
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+    border-radius: 8px;
+    width: 13em;
+    margin-bottom: 1em;
+    font-size: 13px;
+}
+.tag3 {
+    background-color: #390099;
+    margin-left: 0.8em;
+    font-size: 8pt;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-right: 10.2em;
+    border-radius: 4px;
+    font-weight: 600;
+}
+#miniart2 img {
+max-width: 100%;
+}
+#miniart2 h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 0.85em;
+}
+#miniart2 a {
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    padding: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+/* 􀥜Mini Artikel 3 */
+#miniart3 {
+    background-color: #FF0054;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    border-radius: 8px;
+    width: 13em;
+    margin-bottom: 1em;
+    font-size: 13px;
+}
+#miniart3 img {
+    max-width: 50%;
+    display: flex;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#kleinlogovela {
+    background-color: #FFBD00;
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-radius: 8px;
+}
+#miniart3 h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 0.85em;
+}
+#miniart3 a {
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    padding: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.tag4 {
+    background-color: #9E0059;
+    margin-left: 0.8em;
+    font-size: 8pt;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-right: 10.2em;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+
+
+/* 􁽇Artikel Winkel Amsterdam */
+#artamsterdam h1 {
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#artamsterdam img {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+#artamsterdam p.klein {
+    text-align: center;
+}
+.interessant {
+    color: #000000;
+}
+
+
+
+/* 􁊘Artikel Yves Rocher */
+#yves {
+    background-color: #FFBD00;
+    color: #000000;
+}
+#yves h1 {
+    color: #000000;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+}
+#yves p.klein {
+    text-align: center;
+    margin-top: -1em;
+}
+#fotoproducten {
+    max-width: 40%;
+    float: right;
+    margin-right: 1em;
+    border-radius: 8pt;
+    padding: 0.5em;
+}
+#moeilijkepijl{
+    margin-top: -3em;
+    margin-bottom: 2em;
+}
